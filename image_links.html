@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-item {
+            margin-bottom: 10px;
+        }
+
+        .menu-item img {
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="home">
+        <h1>Welcome to Image Links Page</h1>
+        <p>Explore our curated collection of images related to technology, nature, and food.</p>
+        <h2>Home</h2>
+        <a href="https://www.example-technology.com" target="_blank">
+            <img src="https://via.placeholder.com/800x400" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.example-nature.com" target="_blank">
+                <img src="https://via.placeholder.com/400x300" alt="Nature Image 1">
+            </a>
+            <a href="https://www.example-nature.com" target="_blank">
+                <img src="https://via.placeholder.com/400x300" alt="Nature Image 2">
+            </a>
+            <a href="https://www.example-nature.com" target="_blank">
+                <img src="https://via.placeholder.com/400x300" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="https://www.example-food.com" target="_blank">
+                    <img src="https://via.placeholder.com/100x100" alt="Food Item 1">
+                    Burger
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.example-food.com" target="_blank">
+                    <img src="https://via.placeholder.com/100x100" alt="Food Item 2">
+                    Salad
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.example-food.com" target="_blank">
+                    <img src="https://via.placeholder.com/100x100" alt="Food Item 3">
+                    Pizza
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
