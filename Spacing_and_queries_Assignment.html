@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .heading{
+            text-align: center;
+            font-size: 45px; 
+            color: white;
+            padding: 15px 0;
+            background-color: rgb(0, 195, 255);
+            box-shadow: 0 2px 4px black;
+            margin: 0px;
+        }
+        @media screen and (max-width: 576px){
+            .introDiv,.skillsDiv{
+                width: 100%;
+                padding: 5px;
+                margin: auto;
+            }
+            .contactDiv{
+                width: 95%;
+                margin: auto;
+            }
+            .introP{
+                font-size: 15px;
+                letter-spacing: 1px;
+                padding: 5px 10px;
+                background-color: black;
+                color: white;
+            }
+            .skill{
+                font-weight: bold;
+            }
+            ul{
+                font-size: 14px;
+            }
+            ul li{
+                margin-bottom: 5px;
+                padding: 5px;
+                border: 1px solid rgb(0, 195, 255);
+            }
+            .icons{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        /* Small devices (landscape phones, 544px and up) */
+        @media screen and (min-width: 576px) {  
+            .introDiv,.skillsDiv{
+                width: 100%;
+                padding: 5px;
+                margin: auto;
+            }
+            .contactDiv{
+                width: 70%;
+                margin: auto;
+            }
+            .introP{
+                font-size: 16px;
+                letter-spacing: 1px;
+                padding: 5px 10px;
+                background-color: black;
+                color: white;
+            }
+            .skill{
+                font-weight: bold;
+            }
+            ul{
+                font-size: 15px;
+            }
+            ul li{
+                margin-bottom: 5px;
+                padding: 5px;
+                border: 1px solid rgb(0, 195, 255);
+            }
+            .icons{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        
+        /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+        @media screen and (min-width: 768px) {  
+            .introDiv,.skillsDiv{
+                width: 95%;
+                padding: 10px;
+                margin: auto;
+            }
+            .contactDiv{
+                width: 60%;
+                margin: auto;
+            }
+            .introP{
+                font-size: 16px;
+                letter-spacing: 1px;
+                padding: 10px 20px;
+                background-color: black;
+                color: white;
+            }
+            .skill{
+                font-weight: bold;
+            }
+            ul{
+                font-size: 15px;
+            }
+            ul li{
+                margin-bottom: 5px;
+                padding: 10px;
+                border: 1px solid rgb(0, 195, 255);
+            }
+            .icons{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        
+        /* Large devices (desktops, 992px and up) */
+        @media screen and (min-width: 992px) { 
+            .introDiv,.skillsDiv{
+                width: 80%;
+                padding: 10px;
+                margin: auto;
+            }
+            .contactDiv{
+                width: 40%;
+                margin: auto;
+            }
+            .introP{
+                font-size: 18px;
+                letter-spacing: 1px;
+                padding: 10px 20px;
+                background-color: black;
+                color: white;
+            }
+            .skill{
+                font-weight: bold;
+            }
+            ul{
+                font-size: 16px;
+            }
+            ul li{
+                margin-bottom: 5px;
+                padding: 10px;
+                border: 1px solid rgb(0, 195, 255);
+            }
+            .icons{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            
+        }
+        
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media screen and (min-width: 1200px) {  
+            .introDiv,.skillsDiv{
+                width: 70%;
+                padding: 10px;
+                margin: auto;
+            }
+            .contactDiv{
+                width: 30%;
+                margin: auto;
+            }
+            .introP{
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 10px 20px;
+                background-color: black;
+                color: white;
+            }
+            .skill{
+                font-weight: bold;
+            }
+            ul{
+                font-size: 18px;
+            }
+            ul li{
+                margin-bottom: 5px;
+                padding: 10px;
+                border: 1px solid rgb(0, 195, 255);
+            }
+            .icons{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="heading">JAMES MATATA</h1>
+    <div class="introDiv">
+        <h2 style="text-decoration: underline;">Introduction</h2>
+        <p class="introP">
+            As a versatile professional in the realms of graphic design and software development, I bring a unique 
+            blend of creativity and technical expertise to every project. With a keen eye for design principles and 
+            a passion for innovation, I specialize in crafting visually stunning and user-friendly experiences across 
+            web, mobile, and desktop platforms. Whether it's bringing a client's vision to life through captivating 
+            visuals or engineering seamless digital solutions, I thrive on the challenges of modern design and 
+            development. With a commitment to excellence and a dedication to pushing the boundaries of what's possible, 
+            I'm ready to elevate your project to new heights.
+        </p>
+    </div>
+
+    <div class="skillsDiv">
+        <h2 style="text-decoration: underline;">Skills</h2>
+        <ul style="list-style: none;padding: 0;">
+            <li>
+                <span class="skill">Graphic Design:</span> Proficiency in using graphic design software such as Adobe Photoshop, 
+                Illustrator, or Sketch to create visually appealing designs for various purposes.
+            </li>
+            <li>
+                <span class="skill">UI/UX Design:</span> Understanding of user interface and user experience design principles to 
+                create intuitive and user-friendly interfaces for web, mobile, and desktop applications.
+            </li>
+            <li>
+                <span class="skill">HTML/CSS:</span> Strong knowledge of HTML and CSS for structuring and styling web pages, ensuring 
+                compatibility across different browsers and devices.
+            </li>
+            <li>
+                <span class="skill">JavaScript:</span> Proficiency in JavaScript for implementing interactive features, animations, 
+                and dynamic content on websites and applications.
+            </li>
+            <li>
+                <span class="skill">Responsive Design:</span> Ability to design and develop responsive websites and applications that 
+                adapt seamlessly to different screen sizes and devices.
+            </li>
+            <li>
+                <span class="skill">Mobile Development:</span> Experience in developing mobile applications for iOS and/or Android platforms 
+                using frameworks such as React Native, Flutter, or native development tools.
+            </li>
+            <li>
+                <span class="skill">Desktop Development:</span> Proficiency in desktop application development using technologies such as 
+                Electron, .NET, or Java Swing.
+            </li>
+            <li>
+                <span class="skill">Frontend Frameworks</span>: Familiarity with frontend frameworks/libraries such as React, Angular, or 
+                Vue.js to streamline the development process and build scalable applications.
+            </li>
+            <li>
+                <span class="skill">Backend Development:</span> Knowledge of backend technologies such as Node.js, Django, Flask, or ASP.NET 
+                for building server-side logic and APIs to support web and mobile applications.
+            </li>
+            <li>
+                <span class="skill">Problem-Solving:</span> Strong problem-solving skills to troubleshoot issues, optimize performance, and implement efficient solutions across various development projects.
+            </li>
+        </ul>
+    </div>
+
+    <div class="contactDiv">
+        <h2 style="text-align: center;">Contact me</h2>
+        <div style="display: flex;height: 100px;">
+            <div style="flex: 25%;padding: 10px;">
+                <a href="#">
+                    <img class="icons" src="email.png" alt="">
+                </a>
+            </div>
+            <div style="flex: 25%;padding: 10px;">
+                <a href="#">
+                    <img class="icons" src="linkedIn.png" alt="">
+                </a>
+            </div>
+            <div style="flex: 25%;padding: 10px;">
+                <a href="#">
+                    <img class="icons" src="twitter.png" alt="">
+                </a>
+            </div>
+            <div style="flex: 25%;padding: 10px;">
+                <a href="#">
+                    <img class="icons" src="facebook.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
